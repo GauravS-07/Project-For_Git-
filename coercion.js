@@ -23,3 +23,7 @@ console.log(null ===null)
 //== and process
 console.log(null==undefined);
 console.log("jfjf")
+
+// git add <filename>  ----start tracking changes for next commit
+// git commit -m "message"--- create new version on previous change
+console.log("run")

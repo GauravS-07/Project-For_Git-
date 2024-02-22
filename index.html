@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ------fontawesome kit link--------- -->
+    <script src="https://kit.fontawesome.com/b4cf5b5ed0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo2.jpg"class="logo">
+                <ul >
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-regular fa-circle-xmark"></i> -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Gaurav</span> <br>Shinde</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/work-1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Worked with a team of 5 member and lead team in building android application and website to convert
+                        reading of analog gauge meter into digital form and send it to controller database.
+                        Developed simulator to show status of drone and capturing picture and uploading it on website and then
+                        by processing on it showing image on website and its reading .
+                        Technology-:Python, HTML/CSS, AWS EC2, JavaScript, Flutter, REST APIs, OpenCV, Numpy,
+                        Pandas, Ms Excel.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab "id="skills">
+                        <ul >
+                            <li><span>Web Development<br></span>Design Web Applications </li>
+                            <li><span>Software Engineer<br></span>Pyhton Backend Engineer </li>
+                            <li><span>Software Engineer<br></span>Problem Solving </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents "id="experience">
+                        <ul >
+                            <li><span>Harman Connected Services  <br></span>Associate Software Engineer </li>
+                            <li><span>Iprimed Solutions<br></span>Software Engineering Intern </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="education">
+                        <ul >
+                            <li><span>Aissms Institute Of Information Technology<br></span>Degree in B.E Information Technology<br>CGPA: 8.87 </li>
+                            <li><span>P E S Modern College<br></span>Degree in Higher Secondary Physics, Chemistry & Maths<br>Percentage: 77.28%</li>
+                            <li><span>Mahatma Gandhi School<br></span>Degree in Secondary School<br>Percentage: 94.4% </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------About close -->
+    <!-- ---------services --------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>Web Design</h1>
+                    <p>My team Can make web application using<br> Python, MySQL Workbench,<br> Selenium, Flask, HTML/CSS, JavaScript, Java.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <h1>Problem Solving</h1>
+                    <p>we can assist you solve any problem.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h1>UI/UX Design</h1>
+                    <p>My team Can make UI/UX design using Figma.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ---------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>Food ordering web application</h3>
+                        <p>web connect with food you want</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Agro Tech</h3>
+                        <p>web application connect with fruit disease detection and its solution</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer">
+                        <h3>Counter application </h3>
+                        <p>web application help in count.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#"class="btn">See more</a>
+
+        </div>
+    </div>
+
+    <!-- -------------------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- two column -->
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>gauravshinde202287@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9158830866</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+
+                    <a download class="btn btn2"href="Images/GauravShinde.pdf">Download CV</a>
+                    
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"name="Name"placeholder="Your Name"required>
+                        <input type="text"name="email"placeholder="Your Email"required>
+                        <textarea name="Message"rows="6"placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg">hello</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");   
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");    
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        
+        }    
+    </script>
+  
+
+  <script>
+    const scriptURL = "https://script.google.com/macros/s/AKfycbyL5wNPlfW-CEiGYPMnwb1kRJ7qWR_tQLpkvL7FJT1B8qVBsju9c0x0-p95a8-JbPItsw/exec";
+    const form = document.forms['submit-to-google-sheet'];
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+    
+</body>
+</html>
+
+
